@@ -1,18 +1,20 @@
 # It's my solution via Java of recruitment back-end task from Dynatrace (gda-internship-2023)
 
 ## Installation
+**The application should be running on port :8080.**
 
-1. Clone this repo.
-2. Build Spring Boot project with Maven
+Build Spring Boot project with Maven.
 ```
 mvn package
 ```
-3. Run the application.
+ Run the application.
 ```
 mvn spring-boot:run
 ```
-
-Tha application now be running on port :8080.
+Run tests.
+ ```
+mvn test
+```
 
 ## Endpoints
 
@@ -73,6 +75,6 @@ Expected result for the above query on 2023-04-26:
 
 * JAVA 17
 * Spring Boot
-* Maven
+* Maven 3.9.1
 * JUnit
 * Mockito
